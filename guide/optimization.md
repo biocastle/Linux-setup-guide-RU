@@ -43,11 +43,9 @@ Ananicy-cpp - Демон, предназначенный для автомати
 2) Находим строку GRUB_CMDLINE_LINUX_DEFAULT и в конец добавляем следущие параметры:
 
 Для AMD CPU:
-
 acpi_cpufreq amd_pstate=guided
 
 Для INTEL CPU:
-
 acpi_cpufreq intel_pstate=guided
 
 Скачиваем программу cpupower (также подойдут и другие программы)
