@@ -49,9 +49,8 @@ acpi_cpufreq amd_pstate=guided
 acpi_cpufreq intel_pstate=guided
 
 Скачиваем программу cpupower (также подойдут и другие программы)
- (Arch Linux: pacman -S cpupower)
 
-Теперь мы можем задавать CPU на каких частотах ему работать
+Теперь мы можем задавать CPU политику масштабирования и лимиты частот (если выбрали режим guided)
 
 Примеры:
 sudo cpupower frequency-set -g performance
