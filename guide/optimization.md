@@ -56,3 +56,9 @@ acpi_cpufreq intel_pstate=guided
 sudo cpupower frequency-set -g performance
 
 sudo cpupower frequency-set --min 4GHZ
+
+
+### Программа Gamemode (GitHub)[https://github.com/FeralInteractive/gamemode]
+
+##### Steam
+Настройки запуска -> gamemoderun %command%
